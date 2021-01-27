@@ -11,7 +11,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         int inputNumber = scanner.nextInt();;
         System.out.println(Arrays.toString(ArrayGeneratorGreater.generator(array, inputNumber)));
-        //System.out.println(Arrays.toString(ArrayGeneratorLower.generate(array, inputNumber)));
+        System.out.println(Arrays.toString(ArrayGeneratorLower.generate(array, inputNumber)));
         //Sorter.sort(array);
         //int[] arr = Sorter.sort(array);
         //System.out.println(Arrays.toString(arr));
